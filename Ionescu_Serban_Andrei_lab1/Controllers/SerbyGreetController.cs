@@ -7,8 +7,6 @@ namespace Ionescu_Serban_Andrei_lab1.Controllers
         public String Index()
         {
             return "Welcome to my app!";
-           // return Greet();
-          //  return displayIntegerAndStringValues(22,"Heey it's Serban");
         }
 
         public String Greet()
@@ -18,7 +16,7 @@ namespace Ionescu_Serban_Andrei_lab1.Controllers
 
         public String displayIntegerAndStringValues(int displayedInt, String displayedString)
         {
-            return "These are the parameters: " + displayedInt + " and string" + displayedString;
+            return "These are the parameters: int " + displayedInt + " and string " + displayedString;
         }
     }
 }
